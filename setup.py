@@ -11,7 +11,7 @@ setup(
         "botstrap >=0.2.7",
         "humanize ==4.4.0",
         "json5 ==0.9.10",
-        "pillow ==9.3.0",
+        "pillow ==10.3.0",
         "py-cord ==2.2.2",
     ],
 )
