@@ -7,7 +7,7 @@ setup(
         "Source Code": "https://github.com/nuztalgia/qibot",
     },
     install_requires=[
-        "aiohttp ==3.8.3",
+        "aiohttp ==3.10.11",
         "botstrap >=0.2.7",
         "humanize ==4.4.0",
         "json5 ==0.9.10",
