@@ -42,8 +42,7 @@ def _get_value(
     key: str,
     fallback_value: str,
     required: bool,
-) -> str:
-    ...
+) -> str: ...
 
 
 @overload
@@ -52,8 +51,7 @@ def _get_value(
     key: str,
     fallback_value: int,
     required: bool,
-) -> int:
-    ...
+) -> int: ...
 
 
 @overload
@@ -62,8 +60,7 @@ def _get_value(
     key: str,
     fallback_value: dict[str, Any],
     required: bool,
-) -> dict[str, Any]:
-    ...
+) -> dict[str, Any]: ...
 
 
 def _get_value(

@@ -22,8 +22,7 @@ def load_json_from_file(
     lowercase_dict_keys: bool = False,
     create_if_missing: bool = False,
     default_data: dict[str, Any] | None = None,
-) -> dict[str, Any]:
-    ...
+) -> dict[str, Any]: ...
 
 
 @overload
@@ -34,8 +33,7 @@ def load_json_from_file(
     lowercase_dict_keys: bool = False,
     create_if_missing: bool = False,
     default_data: list[Any] | None = None,
-) -> list[Any]:
-    ...
+) -> list[Any]: ...
 
 
 def load_json_from_file(
