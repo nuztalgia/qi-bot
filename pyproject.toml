@@ -1,30 +1,30 @@
 [build-system]
-requires = ["setuptools>=61.0.0"]
 build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0.0"]
 
 [project]
-name = "qibot"
-description = "A modern Discord bot inspired by Stardew Valley."
-requires-python = ">=3.10"
 authors = [
-    { name = "Nuztalgia" },
-    { email = "nuztalgia@gmail.com" }
+  {name = "Nuztalgia"},
+  {email = "nuztalgia@gmail.com"}
 ]
-readme = "README.md"
-license = { text = "Apache-2.0" }
 classifiers = [
-    "Development Status :: 2 - Pre-Alpha",
-    "License :: OSI Approved :: Apache Software License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Topic :: Communications :: Chat",
-    "Topic :: Games/Entertainment :: Role-Playing",
-    "Topic :: Games/Entertainment :: Simulation",
+  "Development Status :: 2 - Pre-Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Communications :: Chat",
+  "Topic :: Games/Entertainment :: Role-Playing",
+  "Topic :: Games/Entertainment :: Simulation"
 ]
+description = "A modern Discord bot inspired by Stardew Valley."
 dynamic = ["dependencies", "urls", "version"]
+license = {text = "Apache-2.0"}
+name = "qibot"
+readme = "README.md"
+requires-python = ">=3.10"
 
 [project.scripts]
 qibot = "qibot.meta:main"
@@ -36,8 +36,8 @@ target-version = ["py310"]
 profile = "black"
 
 [tool.pydocstyle]
-convention = "google"
 add-ignore = "D1"
+convention = "google"
 
 [tool.setuptools.dynamic]
-version = { attr = "qibot.meta.VERSION" }
+version = {attr = "qibot.meta.VERSION"}

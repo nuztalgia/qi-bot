@@ -4,7 +4,7 @@ from discord import Embed, File
 
 from qibot.utils import Template
 
-SPACING: Final[str] = " \u200B "
+SPACING: Final[str] = " \u200b "
 DEFAULT_COLOR: Final[int] = 0x6C79FF
 
 TEXT_WITH_EMOJI: Final[Template] = Template(f"$emoji{SPACING}$text")
